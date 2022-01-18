@@ -115,6 +115,24 @@ code {
   height: 100%;
 }
 
+.card-img {
+  width: 20vw;
+  height: 30vh;
+}
+
+.card-img img {
+  max-width: inherit;
+  max-height: inherit;
+  height: inherit;
+  width: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-origin: content-box;
+  background-attachment: local;
+  border-bottom: 2px solid indianred;
+}
+
 @media screen and (max-width: 992px) {
   .menu_active {
     border-bottom: none;

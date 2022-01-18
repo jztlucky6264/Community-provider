@@ -19,6 +19,7 @@ code {
   font-family: "Mulish", sans-serif;
 }
 $brand-clr: #565387;
+
 .navbar-brand {
   font-size: 1.9rem;
   text-transform: capitalize;
@@ -98,7 +99,22 @@ $btn-color: #3498db;
 .main_service {
   height: 100%;
 }
+.card-img {
+  width: 20vw;
+  height: 30vh;
+  img {
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    background-position: center;
+    background-origin: content-box;
+    background-attachment: local;
 
+    border-bottom: 2px solid indianred;
+  }
+}
 @media screen and (max-width: 992px) {
   .menu_active {
     border-bottom: none;
