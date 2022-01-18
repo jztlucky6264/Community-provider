@@ -129,7 +129,6 @@ code {
      object-fit: cover;
   background-position: center;
   background-origin: content-box;
-  background-attachment: local;
   border-bottom: 2px solid indianred;
 }
 
