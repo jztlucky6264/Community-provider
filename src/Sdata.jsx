@@ -3,7 +3,7 @@ import dev from "../src/Images/dev.jfif";
 import github from "../src/Images/github.jpeg";
 import stackoverflow from "../src/Images/stackoverflow.png";
 import tutorialpoitn from "../src/Images/tutorialpoitn.png";
-import w3school from "../src/Images/w3school.jfif";
+import w3school from "../src/Images/w3school.png";
 
 const Sdata = [
   {

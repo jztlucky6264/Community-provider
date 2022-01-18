@@ -100,8 +100,9 @@ $btn-color: #3498db;
   height: 100%;
 }
 .card-img {
-  width: 20vw;
-  height: 30vh;
+  width: 100%;
+  height: 20vh;
+  overflow: hidden;
   img {
     max-width: inherit;
     max-height: inherit;
@@ -110,7 +111,6 @@ $btn-color: #3498db;
     object-fit: cover;
     background-position: center;
     background-origin: content-box;
-
     border-bottom: 2px solid indianred;
   }
 }

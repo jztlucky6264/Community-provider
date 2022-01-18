@@ -116,8 +116,9 @@ code {
 }
 
 .card-img {
-  width: 20vw;
-  height: 30vh;
+  width: 100%;
+  height: 20vh;
+  overflow: hidden;
 }
 
 .card-img img {
